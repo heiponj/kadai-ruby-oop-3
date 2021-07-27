@@ -7,7 +7,7 @@ class Human < Animal
  
  def initialize(name,age,hobby)
     super(name,age)
-    self.hobby = hobby
+    @hobby = hobby
  end
  
  include Thinkable
